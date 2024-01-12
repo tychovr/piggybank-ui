@@ -13,3 +13,4 @@ describe('Geld overmaken naar een andere rekening', () => {
       cy.get("h1").should("have.text", "Gelukt!");
     });
   });
+
